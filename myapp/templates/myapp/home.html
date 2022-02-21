@@ -45,12 +45,12 @@
             </ul>
     
             <ul class="navbar-nav ms-auto ">
-              <li class="nav-item">
+              {% comment %} <li class="nav-item">
                 <a href="#" class="nav-link ">Projects</a>
-              </li>
+              </li> {% endcomment %}
              
               <li class="nav-item">
-                <a href="#" class="nav-link btn btn-md text-light btn-outline-warning d-inline">Download</a>
+                <a href="#" class="nav-link btn btn-md text-light btn-outline-warning d-inline">Project</a>
               </li>
     
             </ul>
@@ -67,7 +67,7 @@
     <div class="container">
       <div class="d-sm-flex align-items-center justify-content-between">
         <div>
-          <h1>Want's to Speak <span class="text-warning"> Web Developer </span></h1>
+          <h1>Want's to Speak <span class="text-warning"> English </span></h1>
           <p class="lead my-4">
             We focus on teaching our students the fundamentals of the latest
             and greatest technologies to prepare them for their first dev role
@@ -268,7 +268,7 @@
     <div class="container">
         <div class="row align-items-center justify-content-between">
             <div class="col-md">
-                <img src="/static/images/image1.svg" alt="img data" class="img-fluid">
+                <img src="{% static 'myapp/image/11.png' %}" alt="img data" class="img-fluid">
             </div>
             <div class="col-md p-5">
                 <h2 class="">
@@ -310,7 +310,7 @@
                 <a href="#" class="btn btn-warning mt-3">Read More </a>
             </div>
             <div class="col-md">
-                <img src="/static/images/product.svg" alt="img data" class="img-fluid">
+                <img src="{% static 'myapp/image/2.png' %}" alt="img data" class="img-fluid">
             </div>
         </div>
     </div>
