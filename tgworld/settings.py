@@ -112,3 +112,15 @@ STATIC_ROOT = BASE_DIR / 'static'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+
+
+
+
+
+
+#to upload it to server
+#1. git add .
+#2. git commit -m "any comment"
+#3. git push heroku master
